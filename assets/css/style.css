@@ -1,0 +1,68 @@
+body {
+	height: 100%;
+	background-color: rgb(101,89,244);
+}
+
+.flex{
+	content: "";
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 500px;
+}
+.wrap{
+	background-color: white;
+	padding: 30px 20px;
+	border-radius: 10px;
+	box-shadow: 2px 1px 10px rgb(38,3,143);
+}
+.input{
+	display: flex;
+	margin-top: 8px;
+}
+.button {
+	margin-left: 3px;
+}
+.title {
+	font-family: "Arial";
+	font-weight: bolder;
+
+}
+#caption{
+	font-family: "Comic Sans Ms";
+	margin-top: 7px;
+	font-size: 12px;
+	margin-left: 0px;
+	font-weight: bold;
+	color: rgb(225,15,47);
+
+}
+.input-nick{
+	display: flex;
+	padding: 5px 8px;
+	border: 1px solid black;
+	border-radius: 3px;
+}
+#nickname{
+	margin-left: 4px;
+	margin-top: 3px;
+	background-color: transparent;
+	border: none;
+	height: 20px;
+}
+#nickname:focus{
+	outline: none;
+}
+.fa-pencil-alt{
+	margin-top: 4px;
+}
+#submit{
+	padding: 10px 7px;
+	background-color: rgb(29,87,224);
+	color: rgb(255,255,255);
+	border: none;
+	border-radius: 5px;
+	font-family: "Comic Sans Ms";
+	font-weight: bolder;
+	box-shadow: 1px 1px 5px rgb(17,52,134);
+}
